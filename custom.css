@@ -1,0 +1,96 @@
+.custom-subtitle {
+    color: #ff33e0;
+    font-size: 24px; 
+    font-weight: bold;
+
+}
+
+.custom-subtitle-h3 {
+    text-decoration: underline;
+
+}
+
+
+.custom-body {
+    min-height: 200px;
+    height: 100vh;
+    position: relative;
+    background-color: cyan;
+
+}
+.custom-title { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 1em*20;
+    height: 1em*7;
+    margin-left: -(width/2 - 1em);
+    margin-top: -(height/2 - 2em);
+    background: linear-gradient(magenta, magenta) 1em*2 1em / 1em*2 1em,
+                linear-gradient(magenta 1em, pink 1em*3) 1em 1em*2 / 1em 1em*4,
+                linear-gradient(magenta, magenta) 1em*4 1em*2 / 1em 1em,
+                linear-gradient(pink, pink) 1em*4 1em*5 / 1em 1em,
+                linear-gradient(pink, pink) 1em*2 1em*6 / 1em*2 1em,
+                linear-gradient(45deg, alpha(blue,0) .7em, blue .7em,
+                                        blue 2.12em, alpha(blue,0) 2.12em) 1em 0 / 1em*3 1em,
+                linear-gradient(45deg, alpha(blue,0) .7em, blue .7em,
+                                        blue 1.4em, alpha(blue,0) 1.4em) 0 1em / 1em*2 1em,
+                linear-gradient(45deg, blue .7em, alpha(blue,0) .7em) 1em*4 1em / 1em 1em,
+                linear-gradient(45deg, alpha(blue,0) .7em, blue .7em,
+                                        blue 2.12em, alpha(blue,0) 2.12em) 1em 1em*5 / 1em*3 1em,
+                linear-gradient(45deg, alpha(blue,0) .7em, blue .7em,
+                                        blue 1.4em, alpha(blue,0) 1.4em) 1em*3 1em*4 / 1em*2 1em,
+                linear-gradient(45deg, alpha(navy,0) .7em, navy .7em,
+                                        navy 3.7em, alpha(navy,0) 3.7em) 0 1em / 1em 1em*5,
+                linear-gradient(navy, navy) 1em 0 / 1em 1em*2,
+                linear-gradient(45deg, alpha(navy,0) .7em, navy .7em,
+                                        navy 3.7em, alpha(navy,0) 3.7em) 1em 1em*6 / 1em 1em,
+                linear-gradient(navy, navy) 1em*3 1em*4 / 1em 1em*2,
+                linear-gradient(magenta 1em*2, pink 1em*4) 1em*6 1em / 1em 1em*5,
+                linear-gradient(pink, pink) 1em*7 1em*6 / 1em*2 1em,
+                linear-gradient(magenta 1em*2, pink 1em*4) 1em*9 1em / 1em 1em*5,
+                linear-gradient(45deg, alpha(blue,0) .7em, blue .7em,
+                                        blue 1.4em, alpha(blue,0) 1.4em) 1em*5 0 / 1em*2 1em,
+                linear-gradient(45deg, alpha(blue,0) .7em, blue .7em,
+                                        blue 1.4em, alpha(blue,0) 1.4em) 1em*8 0 / 1em*2 1em,
+                linear-gradient(45deg, alpha(blue,0) .7em, blue .7em,
+                                        blue 2.12em, alpha(blue,0) 2.12em) 1em*6 1em*5 / 1em*3 1em,
+                linear-gradient(45deg, alpha(navy,0) .7em, navy .7em,
+                                        navy 4.7em, alpha(navy,0) 4.7em) 1em*5 0 / 1em 1em*6,
+                linear-gradient(45deg, alpha(navy,0) .7em, navy .7em,
+                                        navy 4.7em, alpha(navy,0) 4.7em) 1em*8 0 / 1em 1em*6,
+                linear-gradient(45deg, alpha(navy,0) .7em, navy .7em,
+                                        navy 3.7em, alpha(navy,0) 3.7em) 1em*6 1em*6 / 1em 1em,
+                linear-gradient(magenta 1em*2, pink 1em*4) 1em*11 1em / 1em 1em*6,
+                linear-gradient(magenta, magenta) 1em*11 1em / 1em*3 1em,
+                linear-gradient(magenta, magenta) 1em*14 1em*2 / 1em 1em,
+                linear-gradient(magenta, pink 1em*2) 1em*11 1em*3 / 1em*3 1em,
+                linear-gradient(magenta -(1em*9), pink 1em*1.6) 1em*14 1em*4 / 1em 1em*2,
+                linear-gradient(pink, pink) 1em*11 1em*6 / 1em*3 1em,
+                linear-gradient(45deg, alpha(blue,0) .7em, blue .7em,
+                                        blue 2.83em, alpha(blue,0) 2.83em) 1em*10 0 / 1em*4 1em,
+                linear-gradient(45deg, blue .7em, alpha(blue,0) .7em) 1em*14 1em / 1em 1em,
+                linear-gradient(45deg, alpha(blue,0) .7em, blue .7em,
+                                        blue 2.12em, alpha(blue,0) 2.12em) 1em*11 1em*2 / 1em*3 1em,
+                linear-gradient(45deg, blue .7em, alpha(blue,0) .7em) 1em*14 1em*3 / 1em 1em,
+                linear-gradient(45deg, alpha(blue,0) .7em, blue .7em,
+                                        blue 2.12em, alpha(blue,0) 2.12em) 1em*11 1em*5 / 1em*3 1em,
+                linear-gradient(45deg, alpha(navy,0) .7em, navy .7em,
+                                        navy 5em, alpha(navy,0) 5em) 1em*10 0 / 1em 1em*7,
+                linear-gradient(navy, navy) 1em*13 1em*2 / 1em 1em*4,
+                linear-gradient(magenta 1em*2, pink 1em*4) 1em*16 1em / 1em 1em*6,
+                linear-gradient(magenta, magenta) 1em*16 1em / 1em*4 1em,
+                linear-gradient(magenta, pink 1em*2) 1em*16 1em*3 / 1em*3 1em,
+                linear-gradient(pink, pink) 1em*16 1em*6 / 1em*4 1em,
+                linear-gradient(45deg, alpha(blue,0) .7em, blue .7em,
+                                        blue 3.55em, alpha(blue,0) 3.55em) 1em*15 0 / 1em*5 1em,
+                linear-gradient(45deg, alpha(blue,0) .7em, blue .7em,
+                                        blue 2.12em, alpha(blue,0) 2.12em) 1em*16 1em*2 / 1em*3 1em,
+                linear-gradient(45deg, blue 2.83em, alpha(blue,0) 2.83em) 1em*16 1em*5 / 1em*5 1em,
+                linear-gradient(45deg, alpha(navy,0) .7em, navy .7em,
+                                        navy 5em, alpha(navy,0) 5em) 1em*15 0 / 1em 1em*7;
+    background-repeat: no-repeat;
+    transform: skewY(-12deg) scale(.9);
+    transform-origin: 0 0;
+
+}
